@@ -2,12 +2,15 @@ $color_1: #777;
 $color_2: #049a40;
 $color_3: #666;
 $color_4: #999;
-$font-family_1: "Merriweather", serif;
-$font-family_2: "Montserrat", sans-serif;
+$font-family_1:  'Roboto', sans-serif;
+$font-family_2: 'Roboto', sans-serif;
 $background-color_1: #049a40;
 
-@import "https://fonts.googleapis.com/css?family=Merriweather:400,300,700";
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+// @import "https://fonts.googleapis.com/css?family=Merriweather:400,300,700";
+// @import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 body {
 	background: #fbfbfb;
 	font-family: $font-family_1;
@@ -90,6 +93,8 @@ h4 {
 	}
 	p {
 		font-size: 16px;
+		letter-spacing: .03em;
+		text-align: justify;
 	}
 	a {
 		font-family: $font-family_2;

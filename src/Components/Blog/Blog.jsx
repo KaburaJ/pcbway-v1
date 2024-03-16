@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 const Blog = () => {
     const navigate = useNavigate()
     const handleHomeNaviagtion = () => {
-        navigate("/")
+        navigate("/pcbway-v1")
     }
     return (
         <>
@@ -35,7 +35,7 @@ const Blog = () => {
                                 Founded in 2012, PCBWay has single-handedly facilitated the prototyping of over 2100 PCBs daily. With over 70 highly-skilled professionals under its wing and well over 5 factories situated worldwide, PCBWay has earned a coveted place as a world leader in PCB prototyping, fabrication and assembly. This article seeks to address that precisely. What follows is a break-down of reasons why you should choose PCBWay.
                             </p>
                         </div>
-                        <div className="poster-buttons">
+                        {/* <div className="poster-buttons">
                             <div>
                                 <svg
                                     viewBox="0 0 24 24"
@@ -81,19 +81,19 @@ const Blog = () => {
                                     <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
                                 </svg>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="info">
                         <div className="block published">
                             <div className="mini-title">Published</div>
-                            15/03/2024
+                            16/03/2024
                         </div>
                         <div className="block published">
-                            <div className="mini-title">Views</div>3 251
+                            <div className="mini-title">Article NO:</div>1
                         </div>
                         <div className="block published">
-                            <div className="mini-title">Likes</div>
-                            156
+                            <div className="mini-title">Page(s)</div>
+                            1
                         </div>
                         <div className="block published">
                             <div className="mini-title">Reading</div>
