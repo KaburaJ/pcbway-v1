@@ -1,5 +1,5 @@
 import React from "react";
-import './Home.css'
+import './Home.scss'
 import { useNavigate } from "react-router-dom";
 import logo from "../Assets/PCB-WAY.png"
 import Footer from "../Footer/Footer";

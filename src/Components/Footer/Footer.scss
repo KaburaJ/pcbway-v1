@@ -1,0 +1,60 @@
+$color_1: #eee;
+$color_2: white;
+$background-color_1: #222;
+$background-color_2: #333;
+$background-color_3: #049a40;
+
+/* Footer Styling */
+footer {
+	background-color: $background-color_1;
+	color: $color_1;
+	padding: 30px 0;
+	text-align: center;
+	margin-top: 80px;
+}
+.footer-links {
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	li {
+		display: inline-block;
+		margin-right: 20px;
+	}
+	a {
+		color: $color_1;
+		text-decoration: none;
+	}
+}
+.social-links {
+	a {
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		background-color: $background-color_2;
+		color: $color_1;
+		text-align: center;
+		line-height: 35px;
+		border-radius: 50%;
+		margin-right: 10px;
+	}
+}
+.newsletter {
+	margin-top: 20px;
+	input {
+		padding: 10px;
+		border: none;
+		outline: none;
+		width: 250px;
+	}
+	button {
+		background-color: $background-color_3;
+		color: $color_2;
+		padding: 10px 15px;
+		border: none;
+		cursor: pointer;
+	}
+}
+.copyright {
+	font-size: 0.9em;
+}
